@@ -2,4 +2,22 @@ body {
 	font-size: 16px;
 	font-family: $opensans;
 	font-weight: 400;
+	color: $vdark-blue;
+}
+
+section {
+	padding: 6em 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $raleway;
+	font-weight: 700;
+}
+li{
+	list-style:none;
 }

@@ -1,0 +1,17 @@
+// footer
+footer {
+	background-color: $vdark-blue;
+	color: $lightgrayish-blue;
+  padding-top: 6em;
+  svg {
+    margin-bottom: 2em;
+}
+a{
+  color:$lightgrayish-blue;
+}
+.phone{
+  background: url(/dist/images/icon-phone.svg) no-repeat 0% 50%;
+    padding-left: 2em;
+}
+
+}
