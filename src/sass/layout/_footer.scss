@@ -12,6 +12,21 @@ a{
 .phone{
   background: url(/dist/images/icon-phone.svg) no-repeat 0% 50%;
     padding-left: 2em;
+    margin-bottom: 0.5em;
 }
-
+.email{
+  background: url(/dist/images/icon-email.svg) no-repeat 0% 50%;
+    padding-left: 2em;
+}
+#socialmedia{
+  li{
+    float: left;
+    width: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    height: 40px;
+    text-align: center;
+    padding: 0.5em;
+    margin-right: 0.3em; }
+}
 }
