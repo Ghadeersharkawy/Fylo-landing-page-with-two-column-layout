@@ -9,6 +9,9 @@ footer {
 a{
   color:$lightgrayish-blue;
 }
+ul li{
+  margin-bottom:0.5em;
+}
 .phone{
   background: url(/dist/images/icon-phone.svg) no-repeat 0% 50%;
     padding-left: 2em;
@@ -19,6 +22,9 @@ a{
     padding-left: 2em;
 }
 #socialmedia{
+  display: block;
+  margin: 0 auto;
+  width: 170px;
   li{
     float: left;
     width: 40px;
@@ -27,6 +33,10 @@ a{
     height: 40px;
     text-align: center;
     padding: 0.5em;
-    margin-right: 0.3em; }
+    margin-right: 0.8em; }
+}
+p.attribution {
+  margin-bottom: 0;
+  padding-bottom: 0.4em;
 }
 }

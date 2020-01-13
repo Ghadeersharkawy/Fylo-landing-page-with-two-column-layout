@@ -7,6 +7,9 @@ body {
 
 section {
 	padding: 6em 0;
+	@media screen and (max-width: $mobile) {
+		padding: 4em 0;
+	}
 }
 
 h1,
@@ -18,9 +21,9 @@ h6 {
 	font-family: $raleway;
 	font-weight: 700;
 }
-ul{
-	padding:0
+ul {
+	padding: 0;
 }
-li{
-	list-style:none;
+li {
+	list-style: none;
 }
